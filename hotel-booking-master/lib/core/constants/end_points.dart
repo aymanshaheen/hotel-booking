@@ -1,0 +1,14 @@
+const String baseApiUrl = 'http://api.mahmoudtaha.com';
+const String version = '/api';
+const String apiImagesVersion = '/images';
+const String registerEndPoint = '/auth/register';
+const String loginEndPoint = '/auth/login';
+const String profileGetEndPoint = '/auth/profile-info';
+const String profileUpdateEndPoint = '/auth/update-info';
+const String passwordUpdateEndPoint = '/auth/pass-change';
+const String hotelsEndPoint = '/hotels';
+const String hotelsSearchEndPoint = '/search-hotels';
+const String bookingCreateEndPoint = '/create-booking';
+const String bookingsUpdateEndPoint = '/update-booking-status';
+const String bookingsGetEndPoint = '/get-bookings';
+const String facilitiesGetEndPoint = '/facilities';

@@ -1,0 +1,64 @@
+name: booking_hotel
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  shared_preferences: ^2.0.15
+  fluttertoast: ^8.0.9
+  flutter_screenutil: ^5.5.3+2
+  intl_phone_number_input: ^0.7.0+2
+  percent_indicator: ^4.0.1
+  flutter_switch: ^0.3.2
+  google_maps_flutter: ^2.1.9
+  conditional_builder_null_safety: ^0.0.6
+  flutter_offline: ^2.1.0
+  flutter_toggle_tab: ^1.2.0
+  smooth_page_indicator: ^1.0.0+2
+  internet_connection_checker: ^0.0.1+4
+  dartz: ^0.10.1
+  get_it: ^7.2.0
+  location: ^4.4.0
+  equatable: ^2.0.5
+  image_picker: ^0.8.5+3
+  readmore: ^2.2.0
+  photo_view: ^0.14.0
+  easy_localization: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/json/
+    - assets/font/
+    - assets/i18n/
+
+  fonts:
+    - family: Medium
+      fonts:
+        - asset: assets/font/Montserrat-Medium.ttf
+    - family: Regular
+      fonts:
+        - asset: assets/font/Montserrat-Regular.ttf
+    - family: SemiBold
+      fonts:
+        - asset: assets/font/Montserrat-SemiBold.ttf
